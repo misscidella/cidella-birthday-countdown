@@ -1,0 +1,52 @@
+body,html{
+	margin: auto 0;
+	max-height: 10000px;
+	font-display: Arial, sans-serif;
+	text-align: center;
+	background:linear-gradient(to bottom,darkred,#793ac5) no-repeat, #793ac5; 
+}
+h1{
+	color: white;
+	font-size: 4em;
+}
+#countdown{
+	padding-top: 10vw;
+	font-size: 7vw;
+	color:#ccc;
+}
+#birthday{
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+}
+.circle-container{
+	display: grid;
+	align-content: space-evenly;
+}
+.circle{
+	background-color: #ccc;
+	width: 10px;
+	height: 10px;
+	border-radius:50%;
+}
+.birthday-container{
+	display: flex;
+	overflow: auto;
+}
+.birthday-time-container{
+	color: #ccc;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.birthday-box{
+	margin: 1vw;
+	padding: 2vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 10px solid #ccc;
+	border-radius: 25%;
+	width: 20vw;
+	height: 15vw;
+
+}
